@@ -102,6 +102,7 @@ constants, nesting
 ### 3. No implicit conversion by `to_int` and `to_str`.
 
 The objects with methods `to_int` or `to_str` are no longer converted to Integers or Strings respectively. Those implicit conversions cause recursive VM calls and had been the source of many bugs.
+
 ---
 
 We have done 378 commits to 156 files, 7,949 lines were added, 5,430 lines removed since mruby1.4.1.
